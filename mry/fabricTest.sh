@@ -6,7 +6,7 @@ TRX_ID=$(curl -s -X POST \
   -H "content-type: application/json" \
   -d '{
 	"fcn":"createObj",
-	"args":["1002","order","dGhpcyBpcyBhIHRleHQ="]
+	"args":["1001","order","dGhpcyBpcyBhIHRleHQ="]
 }')
 echo "Transacton ID is $TRX_ID"
 echo

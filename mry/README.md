@@ -4,6 +4,9 @@ sudo ./fabricNetStart.sh -d
 
 ## 第二步 启动 node express http server
 
+### npm install
+npm install
+
 ### install forever
 sudo npm install forever -g
 
@@ -16,7 +19,14 @@ forever stop app
 ./fabricInit.sh
 
 ## 第四步 运行测试数据
+./fabricCreateObj.sh
+
+./fabricQueryObj.sh
+
 ./fabricTest.sh 中的数据摘取
+
+## 删除网络
+sudo ./fabricNetRemove.sh
 
 
 ## 重新生成cr
